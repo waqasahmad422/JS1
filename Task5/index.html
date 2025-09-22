@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1{
+        color: rgb(180, 8, 8);
+      }
+      df{
+        color:rgb(2, 2, 85);
+        font-size: 20px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create a list of 10 variable names.</h1>
+    <p>
+      Identify which names are valid according to JavaScript's naming rules
+      and explain why the invalid ones are not.
+    </p>
+    <pre>
+        Rules for Naming Variables
+            When naming variables in JavaScript, follow these rules
+
+            Variable names must begin with a letter, underscore (_), or dollar sign ($).
+            Subsequent characters can be letters, numbers, underscores, or dollar signs.
+            Variable names are case-sensitive (e.g., age and Age are different variables).
+            Reserved keywords (like function, class, return, etc.) cannot be used as variable names.
+    </pre>
+
+    <dl>
+      <df>userName</df>
+        <dd>Starts with a letter, only letters used</dd>
+      <df>_score</df>
+        <dd>Start with underscore this is valid name</dd>
+      <df>$amount</df>
+        <dd>start $ sign valid name</dd>
+      <df>2ndPlace</df>
+        <dd>invalid becasue cannot start a variable name with nubmer</dd>
+      <df>first-name</df>
+        <dd>invalid becasue cannot used hipen between varible  a variable name with nubmer</dd>
+      <df>let</df>
+       <dd>invalid name cannot used keyword as a varibale name</dd>
+      <df>total_value</df>
+        <dd>valid name of variable</dd>
+      <df>Name123</df>
+        <dd>valid name because after varibale name can use number</dd>
+      <df>class</df>
+        <dd> invalid class is keyword </dd>
+      <df>camelCaseVar</df>
+        <dd> valid name</dd>
+    </dl>
+  </body>
+</html>
